@@ -22,7 +22,7 @@ h1{
     -webkit-text-fill-color: transparent;
 }
 p{
-    color: #ff7aa0
+    color: #ff7aa0;
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     letter-spacing:-1px;
@@ -30,7 +30,7 @@ p{
 }
 a:link, a:visited {
   background-color: transparent;
-  padding: 10px 15px;
+  padding: 10px 10px;
   border-top: 2px solid white;
   border-left: 2px solid white;
   border-right: 2px solid white;
@@ -51,10 +51,38 @@ a:hover, a:active {
 .icons {
     margin-left: 50px;
     text-align: center;
-    
-    --svg-color: red;
 }
 
-.icons a:hover {
-  --svg-color: blue;
+
+.Home .home{
+  width:90px;
+  height:90px;
+  background-image:url('../images/icons/home_pink.svg');
+  background-size: cover;
+}
+
+.Home:hover .home{
+  background-image: url('../images/icons/home.svg');
+}
+
+.Blog .blog{
+  width:90px;
+  height:90px;
+  background-image:url('../images/icons/blog_pink.svg');
+  background-size: cover;
+}
+
+.Blog:hover .blog{
+  background-image: url('../images/icons/blog.svg');
+}
+
+.SocialMedia .smedia{
+  width:90px;
+  height:90px;
+  background-image:url('../images/icons/smedia_pink.svg');
+  background-size: cover;
+}
+
+.SocialMedia:hover .smedia{
+  background-image: url('../images/icons/smedia.svg');
 }
