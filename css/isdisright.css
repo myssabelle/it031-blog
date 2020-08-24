@@ -71,30 +71,18 @@ a:hover, a:active {
   display: flex;
   align-items: center;
   overflow: hidden;
+  margin: 0 5px;
 }
 
-.socialmedia{
+.menubar{
   display: flex;
-  justify-content:center;
-  overflow: hidden;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding-top: 20px;
-  padding-bottom: 30px;
-}
-.smedialink:link, .smedialink:visited {
-  background-color: transparent;
-  margin-bottom: 0;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  padding: 0;
+  border: 5px solid #ff7aa0;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: white;
 }
 
-.smedialink:link {
-  display: flex;
-  align-items: center;
-  overflow: hidden;
+.menubar .iconlink{
+  margin: 0 5px;
 }
 

@@ -24,16 +24,25 @@ p {
     text-align: center;
 }
 a:link, a:visited {
-  background-color: #ffd9b3;
-  color: black;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
+    background-color: #ffd9b3;
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 220px;
+}
+  
+a:not(:first-child):link, a:not(:first-child):visited {
+    margin-left: 20px;
 }
 
 a:hover, a:active {
   background-color: pink;
+}
+
+.firstblog.firstblog.firstblog{
+    margin-left: 0;
 }
 
 .icons {
@@ -76,6 +85,7 @@ a:hover, a:active {
     display: flex;
     align-items: center;
     overflow: hidden;
+    margin: 0 5px;
 }
 
 .socialmedia{
@@ -101,4 +111,16 @@ a:hover, a:active {
     display: flex;
     align-items: center;
     overflow: hidden;
+}
+
+.menubar{
+    display: flex;
+    border: 5px solid #ff7aa0;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+}
+
+.menubar .iconlink{
+    margin: 0 5px;
 }

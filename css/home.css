@@ -8,10 +8,11 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 h1{
     font-family: 'Helvetica Neue', sans-serif;
-    font-size: 80px;
+    font-size: 100px;
     font-weight: bold;
     letter-spacing:-1px;
     line-height: 1.2;
@@ -27,6 +28,7 @@ p{
     font-size: 20px;
     letter-spacing:-1px;
     text-align: center;
+    margin-top: -10px;
 }
 a:link, a:visited {
   background-color: transparent;
@@ -49,14 +51,13 @@ a:hover, a:active {
 }
 
 .icons {
-    margin-left: 50px;
     text-align: center;
 }
 
 
 .Home .home{
-  width:90px;
-  height:90px;
+  width:70px;
+  height:70px;
   background-image:url('../images/icons/home_pink.svg');
   background-size: cover;
 }
@@ -66,8 +67,8 @@ a:hover, a:active {
 }
 
 .Blog .blog{
-  width:90px;
-  height:90px;
+  width:70px;
+  height:70px;
   background-image:url('../images/icons/blog_pink.svg');
   background-size: cover;
 }
@@ -77,8 +78,8 @@ a:hover, a:active {
 }
 
 .SocialMedia .smedia{
-  width:90px;
-  height:90px;
+  width:70px;
+  height:70px;
   background-image:url('../images/icons/smedia_pink.svg');
   background-size: cover;
 }
