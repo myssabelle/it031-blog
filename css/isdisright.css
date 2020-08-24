@@ -38,3 +38,46 @@ a:link, a:visited {
 a:hover, a:active {
   background-color: pink;
 }
+.icons:hover {
+  max-height: 2000px;
+}
+
+.iconlink:link, .iconlink:visited {
+  background-color: white;
+  margin-bottom: 0;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0;
+}
+
+.iconlink:link {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.socialmedia{
+  display: flex;
+  justify-content:center;
+  overflow: hidden;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.smedialink:link, .smedialink:visited {
+  background-color: transparent;
+  margin-bottom: 0;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0;
+}
+
+.smedialink:link {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
