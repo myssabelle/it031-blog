@@ -22,7 +22,7 @@ h1{
     -webkit-text-fill-color: transparent;
 }
 p{
-    color: rgba(254, 210, 251, 0.70);
+    color: #ff7aa0
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     letter-spacing:-1px;
@@ -51,4 +51,10 @@ a:hover, a:active {
 .icons {
     margin-left: 50px;
     text-align: center;
+    
+    --svg-color: red;
+}
+
+.icons a:hover {
+  --svg-color: blue;
 }
