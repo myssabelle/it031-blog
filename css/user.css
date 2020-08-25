@@ -181,6 +181,6 @@ img{
     letter-spacing: -2px;
 }
 
-.pic:hover .pic{
+.icondiv:hover .pic{
     background-image: url('../images/ppicon2.png');
   }
